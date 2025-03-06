@@ -18,11 +18,13 @@
         <header>
             <a href="#" class="logo"><span>A</span>rturo</a>
             <ul class="navlist">
-                <li><a href="#" class="active">Perfil</a></li>
-                <li><a href="privacidad.html" class="active">Privacidad</a></li>
+                <li><a href="#" class="active" id="perfil">Perfil</a></li>
+                <li><a href="privacidad.html" class="active" id="privacidad">Privacidad</a></li>
+                <button class="flag" data-lang="es"><img src="./img/col.png" alt=""></button>
+                <button class="flag" data-lang="en"><img src="./img/usa.png" alt=""></button>
             </ul>
             <div class="right-header">
-                <a href="https://api.whatsapp.com/send?phone=573143394021&text=`Hola, me gustaría conversar contigo acerca de una oportunidad laboral.`" class="btn" target="_blank" >Let's chat <i class="bx bx-message-dots"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=573143394021&text=`Hola, me gustaría conversar contigo acerca de una oportunidad laboral.`" class="btn" target="_blank" id="contacto">Hablemos <i class="bx bx-message-dots"></i></a>
                 <div class="menu-icon">
                     <div class="bar"></div>
                 </div>
@@ -45,18 +47,18 @@
                 <div class="text-animate">
                     <h2>Mobile Developer</h2>
                 </div>
-
-                <p>Profesional en Administración de Empresas, Tecnólogo en Administración del Talento Humano y Técnico
+                
+                <p id="parrafo1">Profesional en Administración de Empresas, Tecnólogo en Administración del Talento Humano y Técnico
                     en Informática, con experiencia en desarrollo web, móvil y automatización de procesos (RPA).
                     Especializado en la creación de aplicaciones multiplataforma utilizando HTML5, CSS3, JavaScript,
                     Capacitor, archivos JSON, consumo de APIs, Android Studio y Xcode, además de herramientas para
                     automatización UiPath y Python.</p>
 
-                <p>Con habilidades en el uso de GitHub para control de versiones y GitHub pages, Cloudflare para la
+                <p id="parrafo2">Con habilidades en el uso de GitHub para control de versiones y GitHub pages, Cloudflare para la
                     gestión de dominios y optimización web, experiencia en desarrollo frontend mobile y web con
                     nipple.js, pdf.js, xlsx.js (SheetJS), FileSaver.js y terser.js.</p>
 
-                <p>Proactivo, autodidacta y apasionado por la tecnología, con capacidad de adaptación y aprendizaje
+                <p id="parrafo3">Proactivo, autodidacta y apasionado por la tecnología, con capacidad de adaptación y aprendizaje
                     continuo. Con experiencia previa en reclutamiento IT, legislación laboral colombiana y gestión de
                     talento, comprendiendo necesidades del negocio y trabajando en equipos multidisciplinarios.</p>
                 <br>
@@ -83,6 +85,7 @@
      
     <!-- scroll reveal  -->
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="script.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/idiomas.js" ></script>
 </body>
 </html>

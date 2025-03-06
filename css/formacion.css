@@ -347,6 +347,24 @@ section{
     font-size: 1.2rem;
 }
 
+.flag {
+    background: none; /* Elimina cualquier fondo */
+    border: none; /* Elimina cualquier borde */
+    padding: 0; /* Elimina el espacio interno */
+    cursor: pointer; /* Hace que se vea clickeable */
+    display: inline-flex; /* Asegura alineación con la imagen */
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.flag img {
+    width: 20px; /* Ajusta el tamaño de la bandera */
+    height: 20px; /* Ajusta el tamaño de la bandera */
+    border-radius: 50%; /* Hace la imagen circular */
+    object-fit: cover; /* Asegura que la imagen se ajuste bien */
+}
+
 /* Keyframes */
 
 @keyframes moveText{
