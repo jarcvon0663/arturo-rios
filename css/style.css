@@ -205,7 +205,7 @@ section{
 .btn-box{
     display: flex;
     justify-content: space-between;
-    width: 320px;
+    width: 400px;
     margin-top: 2rem;
     margin-bottom: 6rem;
 }
@@ -598,3 +598,4 @@ section{
         transform-origin: center; /* Ajustar el origen de la rotación */
     }
 }
+
