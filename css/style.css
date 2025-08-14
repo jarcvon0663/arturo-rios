@@ -232,7 +232,7 @@ section{
 .social-media{
     display: flex;
     justify-content: space-between;
-    width: 220px;
+    width: 275px;
     height: 45px;
 }
 
@@ -598,4 +598,5 @@ section{
         transform-origin: center; /* Ajustar el origen de la rotación */
     }
 }
+
 
