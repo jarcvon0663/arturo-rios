@@ -163,7 +163,7 @@ section{
 }
 
 .text-animate{
-    width: 22.8rem;
+    width: 25rem;
     position: relative;
 }
 
@@ -598,5 +598,6 @@ section{
         transform-origin: center; /* Ajustar el origen de la rotación */
     }
 }
+
 
 
